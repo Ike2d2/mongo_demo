@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+body, form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, button {
+    outline: none;
+    padding: 12px 24px;
+    font-size: large;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #fafafa;
+    border-color: #aaa;
+}
+
+input:hover, button:hover {
+    scale: 105%;
+}

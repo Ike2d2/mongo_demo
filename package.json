@@ -1,0 +1,19 @@
+{
+  "name": "mongo_demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.mjs",
+    "scripts": {
+      "local": "node -r dotenv/config --watch server.mjs"
+    },
+    "author": "Isaac Stark",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^8.1.1"
+    },
+    "devDependencies": {
+      "dotenv": "^16.4.1"
+    }
+  }
+  
